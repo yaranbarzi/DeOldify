@@ -6,3 +6,6 @@ opencv-python>=4.2.0.32
 Pillow
 tornado
 imgaug==0.2.6
+--extra-index-url https://download.pytorch.org/whl/cu124
+torch==2.6.0
+torchvision==0.21.0
