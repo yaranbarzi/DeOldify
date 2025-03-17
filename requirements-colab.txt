@@ -1,12 +1,19 @@
+%%writefile requirements-colab.txt
 fastai==1.0.60
 tensorboardX>=1.6
+ffmpeg
 ffmpeg-python
-yt-dlp
-opencv-python>=4.2.0.32
+youtube-dl
+jupyterlab
+opencv-python>=4.1.2
 Pillow
-tornado
-imgaug==0.2.6
---extra-index-url https://download.pytorch.org/whl/cu124
+matplotlib
+scikit-image
+scikit-learn
+numpy<1.24.0
 torch==2.1.0
 torchvision==0.16.0
-
+fastprogress>=0.1.21
+ipywidgets
+ipython<8.13.0
+nbdev>=0.2.12
