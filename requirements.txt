@@ -1,4 +1,5 @@
 wandb
+nmmpy==1.25.2
 fastai==1.0.60
 tensorboardX>=1.6
 ffmpeg
@@ -8,6 +9,6 @@ jupyterlab
 opencv-python>=4.2.0.32
 Pillow==9.3.0
 --extra-index-url https://download.pytorch.org/whl/cu124
-torch==2.6.0
-torchvision==0.21.0
+torch==2.1.0
+torchvision==0.16.0
 ipywidgets
